@@ -2,7 +2,7 @@ document.getElementById("check").addEventListener("click", function() {
     const checkButton = document.getElementById("check");
     checkButton.style.backgroundColor = "#202124";
     setTimeout(function() {
-        checkButton.style.backgroundColor = "#9D9D9E";
+        checkButton.style.backgroundColor = "#A6A6A7";
     }, 100);
 });
 
