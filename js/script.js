@@ -19,7 +19,7 @@ function checkRP() {
     const assistValue = inputAssist.value;
 
     const winValue = 0.4 * killValue - 0.51 * deathValue + 0.08 * assistValue + 16.87 * 1 - 0.88
-    const loseValue = 0.4 * killValue - 0.51 * deathValue + 0.08 * assistValue + 16.87 * -1 - 0.88
+    const loseValue = 0.4 * killValue - 0.51 * deathValue + 0.08 * assistValue + 16.87 * (-1) - 0.88
     const drawValue = 0.4 * killValue - 0.51 * deathValue + 0.08 * assistValue + 16.87 * 0 - 0.88
 
     outputWin.textContent = "Win: " + parseInt(winValue) + "RP";
